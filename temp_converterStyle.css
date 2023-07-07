@@ -1,0 +1,67 @@
+body{
+    background-image: url(Images/HD\ wallpaper_\ simple\,\ minimalism\,\ gradient\,\ backgrounds\,\ abstract\,\ blue\,\ no\ people.jpeg);
+   
+}
+
+.temperature-converter {
+  border-radius: 10px;
+  padding: 80px;
+  max-width: 700px;
+  height: 300px;
+  margin: 80px auto;
+  text-align: center;
+  box-shadow: 0 0 35px rgba(21, 248, 199, 0.951);
+}
+
+.temperature-converter h1 {
+    color: #030303;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    width: 120px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #cbeffd;
+    font-size: 20px;
+    outline: none;
+  }
+
+  #convert {
+    justify-content: center;
+  align-items: center;
+    margin-top: 40PX;
+    background-color: #3ef5e3;
+    box-shadow: 0 0 15px rgba(249, 247, 247, 0.888);
+    color: #090909;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #convert:hover {
+    background-color: #89f9e3;
+  }
+
+  #clear {
+    justify-content: center;
+  align-items: center;
+    margin-top: 25PX;
+    background-color: #3ef5e3;
+    box-shadow: 0 0 15px rgba(249, 247, 247, 0.888);
+    color: #090909;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #clear:hover {
+    background-color: #89f9e2b1;
+  }

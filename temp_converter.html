@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="temp_converterStyle.css" />
+    <title>temp_converter</title>
+  </head>
+  <body>
+    <div class="temperature-converter">
+      <h1>Temperature Converter</h1>
+      <div class="input-container">
+        <input
+          type="text"
+          id="celsius"
+          placeholder="Celsius"
+          name="c"
+          value=""
+        />
+
+        <input
+          type="text"
+          id="fahrenheit"
+          placeholder="Fahrenheit"
+          name="f"
+          value=""
+        />
+
+        <input type="text" id="kelvin" placeholder="Kelvin" name="c" value="" />
+      </div>
+      <div>
+        <button id="convert">Convert!</button>
+      </div>
+      <div>
+        <button id="clear">Reset <i class="fas fa-undo-alt"></i></button>
+      </div>
+    </div>
+
+    <script src="temp_converter.js"></script>
+  </body>
+</html>
